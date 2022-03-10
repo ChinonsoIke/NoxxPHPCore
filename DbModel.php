@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core;
+namespace NoxxPHP\Core;
 
 abstract class DbModel extends Model
 {

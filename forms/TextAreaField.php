@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Forms;
+namespace NoxxPHP\Core\Forms;
 
 class TextAreaField extends BaseField
 {

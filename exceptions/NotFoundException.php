@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Exceptions;
+namespace NoxxPHP\Core\Exceptions;
 
 use Exception;
 

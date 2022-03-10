@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core;
+namespace NoxxPHP\Core;
 
-use App\Core\Middlewares\BaseMiddleware;
+use NoxxPHP\Core\Middlewares\BaseMiddleware;
 
 class Controller
 {
@@ -10,7 +10,7 @@ class Controller
     public string $action= '';
 
     /**
-     * @var \App\Core\Middleware\BaseMiddleware[]
+     * @var \NoxxPHP\Core\Middleware\BaseMiddleware[]
      */
     protected array $middlewares= [];
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core\Forms;
+namespace NoxxPHP\Core\Forms;
 
-use App\Core\Model;
+use NoxxPHP\Core\Model;
 
 class InputField extends BaseField
 {

@@ -1,9 +1,9 @@
 <?php
-namespace App\Core;
+namespace NoxxPHP\Core;
 
-use App\Core\Request;
-use App\Core\Application;
-use App\Core\Exceptions\NotFoundException;
+use NoxxPHP\Core\Request;
+use NoxxPHP\Core\Application;
+use NoxxPHP\Core\Exceptions\NotFoundException;
 
 class Router
 {
@@ -47,7 +47,7 @@ class Router
 
         // else call callback
         if(is_array($callback)){
-            /** @var \App\Core\Controller $controller */
+            /** @var \NoxxPHP\Core\Controller $controller */
             $controller= new $callback[0](); // eg new SiteController()
             Application::$app->controller= $controller;
             $controller->action= $callback[1];

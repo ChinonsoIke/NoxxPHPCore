@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Core\Middlewares;
+namespace NoxxPHP\Core\Middlewares;
 
-use App\Core\Application;
-use App\Core\Exceptions\ForbiddenException;
+use NoxxPHP\Core\Application;
+use NoxxPHP\Core\Exceptions\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Middlewares;
+namespace NoxxPHP\Core\Middlewares;
 
 abstract class BaseMiddleware
 {
